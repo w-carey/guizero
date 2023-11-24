@@ -21,3 +21,17 @@ def placeholdertextbox(textbox, event, placeholder, password):
         textbox.hide_text = False
     ####
 ####
+SIGNUPforenameBox.tk.bind("<FocusIn>", lambda type: placeholdertextbox(SIGNUPforenameBox, str(type), PLACEHOLDERforename, False))
+SIGNUPforenameBox.tk.bind("<FocusOut>", lambda type: placeholdertextbox(SIGNUPforenameBox, str(type), PLACEHOLDERforename, False))
+SIGNUPsurnameBox.tk.bind("<FocusIn>", lambda type: placeholdertextbox(SIGNUPsurnameBox, str(type), PLACEHOLDERsurname, False))
+SIGNUPsurnameBox.tk.bind("<FocusOut>", lambda type: placeholdertextbox(SIGNUPsurnameBox, str(type), PLACEHOLDERsurname, False))
+SIGNUPusernameBox.tk.bind("<FocusIn>", lambda type: placeholdertextbox(SIGNUPusernameBox, str(type), PLACEHOLDERrusername, False))
+SIGNUPusernameBox.tk.bind("<FocusOut>", lambda type: placeholdertextbox(SIGNUPusernameBox, str(type), PLACEHOLDERrusername, False))
+SIGNUPpasswordBox.tk.bind("<FocusIn>", lambda type: placeholdertextbox(SIGNUPpasswordBox, str(type), PLACEHOLDERpassword, True))
+SIGNUPpasswordBox.tk.bind("<FocusOut>", lambda type: placeholdertextbox(SIGNUPpasswordBox, str(type), PLACEHOLDERpassword, True))
+SIGNUPconfirmpasswordBox.tk.bind("<FocusIn>", lambda type: placeholdertextbox(SIGNUPconfirmpasswordBox, str(type), PLACEHOLDERconfirmpassword, True))
+SIGNUPconfirmpasswordBox.tk.bind("<FocusOut>", lambda type: placeholdertextbox(SIGNUPconfirmpasswordBox, str(type), PLACEHOLDERconfirmpassword, True))
+SIGNUPemailBox.tk.bind("<FocusIn>", lambda type: placeholdertextbox(SIGNUPemailBox, str(type), PLACEHOLDERemail, False))
+SIGNUPemailBox.tk.bind("<FocusOut>", lambda type: placeholdertextbox(SIGNUPemailBox, str(type), PLACEHOLDERemail, False))
+SIGNUPmobilenumberBox.tk.bind("<FocusIn>", lambda type: placeholdertextbox(SIGNUPmobilenumberBox, str(type), PLACEHOLDERmobile, False))
+SIGNUPmobilenumberBox.tk.bind("<FocusOut>", lambda type: placeholdertextbox(SIGNUPmobilenumberBox, str(type), PLACEHOLDERmobile, False))
